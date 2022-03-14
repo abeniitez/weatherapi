@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<ItemGroup>
+		<ProjectReference Include="..\Adbeniz.Weather.Restful.Domain\Adbeniz.Weather.Restful.Domain.csproj"/>
+		<ProjectReference Include="..\Adbeniz.Weather.Restful.Infrastructure\Adbeniz.Weather.Restful.Infrastructure.csproj"/>
+	</ItemGroup>
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="MediatR" Version="9.0.0"/>
+		<PackageReference Include="Microsoft.Extensions.Caching.Abstractions" Version="5.0.0"/>
+		<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="5.0.0"/>
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.1"/>
+		<PackageReference Include="System.ServiceModel.Http" Version="4.8.1"/>
+		<PackageReference Include="System.ServiceModel.Primitives" Version="4.8.1"/>
+		<PackageReference Include="System.Net.Http.WinHttpHandler" Version="5.0.0"/>
+		<PackageReference Include="Microsoft.Extensions.Http.Polly" Version="5.0.1"/>
+		<PackageReference Include="System.Xml.XmlSerializer" Version="4.3.0"/>
+	</ItemGroup>
+</Project>
